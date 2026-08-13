@@ -1,0 +1,17 @@
+# Device inventory for real (non-mock) runs.
+# Credentials are pulled from env vars NET_USER / NET_PASS, not stored here.
+devices:
+  - name: core-sw01
+    host: 192.168.100.11
+    device_type: cisco_ios
+    role: core_switch
+
+  - name: access-sw01
+    host: 192.168.100.21
+    device_type: cisco_ios
+    role: access_switch
+
+  - name: edge-router01
+    host: 192.168.100.1
+    device_type: mikrotik_routeros
+    role: edge_router
