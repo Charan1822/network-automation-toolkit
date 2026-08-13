@@ -1,4 +1,7 @@
-# Network Automation & Compliance Toolkit
+
+ **🔗 [Live demo](https://charan1822.github.io/network-automation-toolkit/)**
+ 
+ # Network Automation & Compliance Toolkit
 
 A Python + Ansible toolkit that automates the config backup, drift detection,
 and compliance auditing tasks network engineers normally do by hand — the
@@ -65,3 +68,5 @@ scale that work.
 - [ ] NAPALM-based multi-vendor support (Juniper, Arista)
 - [ ] GitHub Actions workflow to run compliance checks on every PR to `golden_configs/`
 - [ ] Slack webhook alert on drift detection
+
+      
